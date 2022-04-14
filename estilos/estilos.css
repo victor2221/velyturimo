@@ -39,7 +39,7 @@ nav a {
 }
 
 
-aside {
+-aside {
 
   flex: 30px;
   background-color: rgb(232, 232, 142);
@@ -146,7 +146,7 @@ img {
 }
 
 
-.aside img {
+....aside img {
   width: 300px;
   float: left;
   margin-right: 20px;
@@ -166,7 +166,7 @@ img {
 
 
 
-.aside p {
+'aside p {
   font-size: 18px;
   font-weight: 300;
 

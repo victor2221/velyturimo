@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<link rel="shortcut icon" href="multimedia/velymundo1.ico" type="image/x-icon">
 	<link href="estilos/estilos.css" rel="stylesheet">
 	<title>velyturismo</title>
@@ -18,13 +18,13 @@
 		<h1 class="titprincipal">velyturismo</h1>
 	</header>
 
-<main class="mainss">
-	<h1>ESPECIALES PROMOCIONES DE VIAJES</h1>
-	<P>LLEGAN PROMOCIONES ESPECIALES PARA QUE PUEDAS IR DONDE TE GUSTE</P>
+<main class="container-fluid">
+	<h1 class="col-lg-6 col-md-4 col-sm-11">ESPECIALES PROMOCIONES DE VIAJES></h1>
+	<P class="col-6">LLEGAN PROMOCIONES ESPECIALES PARA QUE PUEDAS IR DONDE TE GUSTE</P>
 	<H2>ESTAS EN LAS PROMOS</H2>
 </main>
 
-	<nav>
+	<nav class="col-4 navegacion">
 
 		<a href="paginas/contacto.html">contactos</a>
 		<a href="paginas/quienessomos.html">quienessomos</a>
@@ -34,21 +34,21 @@
 
 
 	<div class="rower">
-		<aside class="aside">
+		<aside class="row aside">
 
-			<h2 class="urutitulo">Uruguay​</h2>
+			<h2 class="col-lg-4 col-md-5 col-sm-8 urutitulo">Uruguay​</h2>
 			<img src="multimedia/vacaciones-en-playa-la-mansa___dSvNkLeK_1256x620__1.webp" alt="playa uruguay">
-			<p class="parra">La costa uruguaya, con sus playas de estuario y mar, con sus opciones más familiares o más
+			<p class="col-5 parra">La costa uruguaya, con sus playas de estuario y mar, con sus opciones más familiares o más
 				faranduleras, siempre figura entre los lugares preferidos por los argentinos que viajan al exterior. El
 				verano pasado, entre diciembre 2021 y abril 2022, 1.054.261 argentinos pasaron sus vacaciones en
 				Uruguay.​</p>
 		</aside>
 
 		<div class="selection">
-			<section class="seccion">
-				<h2 class="bratitulo">brazil</h2>
+			<section class="row seccion">
+				<h2 class="col-lg-3 col-md-5 col-sm-10 bratitulo">brazil</h2>
 				<img src="multimedia/BZK5BQF5VRCKDAID6A54R6LBP4.jpg" alt="playa brazil">
-				<p> Río de Janeiro es considerado uno de los lugares mas bellos del planeta. Cuenta con más de 7
+				<p class="col-4"> Río de Janeiro es considerado uno de los lugares mas bellos del planeta. Cuenta con más de 7
 					millones de habitantes a quienes se los conoce como «cariocas». En Río no solo se encuentra la gente
 					que a diario disfruta de las playas, el sol y el mar, gran parte de su población habita las llamadas
 					«favelas», especie de barrios situados en las laderas de la colinas que rodean la ciudad. </p>
@@ -82,14 +82,28 @@
 
 		</nav>
 
-		<footer>
-			<p>&copy; 2022 velymundo</p>
+		<footer class="row foter">
+			<p class="col-5">&copy; 2022 velymundo</p>
 			<ul>
 				<li>facebook</li>
 				<li>instagram</li>
 				<li>twitter</li>
 			</ul>
+		
+			
+			
+		
+		
+		
+		
 		</footer>
-</body>
+		<table class="table table-striped">
+			...
+		  </table>
+<script src="js/bootstrap.min.js"></script>
+
+
+
+	</body>
 
 </html>
