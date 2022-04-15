@@ -99,26 +99,26 @@ img {
 
 
 
-@media(min-width: 320px) {
+/*@media(min-width: 320px) {
   .rower {
     display: grid;
     grid-template-columns: repeat(2, 1 fr);
   }
-}
+}*/
 
-@media(min-width: 768px) {
+/*@media(min-width: 768px) {
   .rower {
     display: grid;
     grid-template-columns: repeat(2, 1 fr);
   }
-}
+}*/
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
   .rower {
     display: grid;
     grid-template-columns: repeat(3, 1 fr);
   }
-}
+}*/
 
 .urutitulo {
   font-size: 40px;
@@ -146,14 +146,14 @@ img {
 }
 
 
-....aside img {
+/*  .aside img {
   width: 300px;
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
 
 
-}
+}*/
 
 .seccion img {
   width: 300px;
