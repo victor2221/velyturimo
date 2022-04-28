@@ -1,5 +1,8 @@
-
+@import "variables";
 @import "header";
+@import "contactos";
+@import "footer";
+@import "mediaqueries";
 
 
 * {
@@ -23,7 +26,7 @@
     background-color: transparent;
     background-position: center;
     text-align: center;
-    background-image: url("../multimedia/2.jpg");
+    
     color: rgba(249, 243, 114, 0.576);
     background-size: 100% 270%;
     background-repeat: no-repeat;
@@ -36,7 +39,7 @@
     flex-direction: row;
     background-color: #333;
   a {
-    color: white;
+    color: $colorprincipal;
     padding: 14px 20px;
     text-decoration: none;
   }
@@ -56,7 +59,7 @@
   footer {
     padding: 20px;
     text-align: center;
-    background-color: rgb(255, 188, 86);
+    background-color: $colorprincipal;
   }
   
    @media screen and (max-width: 350px) {
@@ -199,7 +202,7 @@
   }
   
   .quienparr h3 {
-    color: rgb(249, 71, 71);
+    color: $colorsecundario;
     text-decoration: solid;
   }
   
@@ -243,7 +246,7 @@
   
   .tituloh1 {
     font-family: initial;
-    color: rgb(255, 165, 106);
+    color: $colorsecundario;
   
   }
   
@@ -252,7 +255,7 @@
   body {
     height: 100%;
     font-family: 'Noto Sans', sans-serif;
-    background-color: #6aeae2;
+    background-color: rgb(10, 58, 64);
   }
   
   
@@ -398,4 +401,43 @@
   width: 150px;
   transform: scale(1.2);
  }
+}
+
+.footer-vuelos {
+    
+  margin-top: 80px;
+  text-align: center;
+  background-color: #595555;
+  color: rgb(200, 147, 147);
+}
+
+.footer-servicios{  
+
+  margin-top: 80px;
+  text-align: center;
+  background-color: #c97979;
+  color: rgb(246, 201, 104);
+
+}
+
+.footer-quienessomos{
+
+  margin-top: 80px;
+  text-align: center;
+  background-color: #9df276;
+  color: rgb(104, 220, 246);
+
+}
+
+.footer-contactos{
+
+  margin-top: 80px;
+  text-align: center;
+  background-color: #9888f3;
+  color: rgb(241, 104, 246);
+
+
+}
+.row-headerr{
+background-image: url("../multimedia/2.jpg");
 }

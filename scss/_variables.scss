@@ -1,0 +1,39 @@
+$colorprincipal: rgb(235, 235, 96);
+ 
+$colorsecundario: rgb(241, 77, 77);
+
+$titulosgrade: 20px;
+
+$titulopequeño: 10px;
+
+$anchototal: 100px;
+.cajaimagen{
+width: $anchototal/2;
+
+}
+
+$festividad: pascuas;
+
+body{
+    @if $festividad == navidad{
+background-color: brown;
+} @else if $festividad == pascuas{
+    background-color: aqua;
+} @else {
+    background-color: chocolate;
+    }
+}
+
+$redes: (
+    twitter: #55acee,
+    facebook: #3a5795,
+    instagram: #c53
+);
+
+
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color;
+    }
+    
+}
