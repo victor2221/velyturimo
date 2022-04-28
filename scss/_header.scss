@@ -1,16 +1,30 @@
-@import "header";
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0; }
   
-  header {
+body {
+      height: 100%;
+      font-family: 'Noto Sans', sans-serif;
+      background-color: rgb(10, 58, 64);
+  }
+  
+  .index-body {
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(10, 58, 64)
+  }
+ 
+  
+  
+  
+    header {
     padding: 50px;
     background-color: transparent;
     background-position: center;
     text-align: center;
-    background-image: url("../multimedia/2.jpg");
+   
     color: rgba(249, 243, 114, 0.576);
     background-size: 100% 270%;
     background-repeat: no-repeat;
@@ -27,3 +41,41 @@ nav {
       padding: 14px 20px;
       text-decoration: none; }
     }
+
+    .quiennav {
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(134, 44, 44);
+       a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+   }
+    }
+
+    .servinav {
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(134, 214, 64);
+    a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    
+      }
+  }
+    .vuelosnav {
+    
+      display: flex;
+      flex-direction: row;
+      background-color: rgb(8, 79, 104);
+     a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      }
+    }
+  
+    .row-headerr{
+      background-image: url("../multimedia/2.jpg");
+      }
