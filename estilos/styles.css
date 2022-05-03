@@ -1,9 +1,15 @@
 .cajaimagen {
-  width: 50px; }
+  width: 150px; }
 
-body {
-  background-color: aqua; }
-
+/*body{
+    @if $festividad == navidad{
+background-color: brown;
+} @else if $festividad == pascuas{
+    background-color: aqua;
+} @else {
+    background-color: chocolate;
+    }
+}*/
 .btn--twitter {
   background-color: #55acee; }
 
@@ -18,11 +24,11 @@ body {
   margin: 0;
   padding: 0; }
 
-body {
-  height: 100%;
-  font-family: 'Noto Sans', sans-serif;
-  background-color: #0a3a40; }
-
+/*body {
+      height: 100%;
+      font-family: 'Noto Sans', sans-serif;
+      background-color: rgb(10, 58, 64);
+  }*/
 .index-body {
   height: 100%;
   font-family: 'Noto Sans', sans-serif;
@@ -156,7 +162,7 @@ button p {
 .footer-quienessomos {
   margin-top: 80px;
   text-align: center;
-  background-color: #9df276;
+  background-color: #9c9c68;
   color: #68dcf6; }
 
 .footer-contactos {
@@ -334,28 +340,26 @@ h3 {
   padding: 0;
   margin: 0; }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0; }
-
-header {
-  padding: 50px;
-  background-color: transparent;
-  background-position: center;
-  text-align: center;
-  color: rgba(249, 243, 114, 0.576);
-  background-size: 100% 270%;
-  background-repeat: no-repeat;
-  text-shadow: 2px 2px #341515;
-  font-style: italic; }
-
+/*header {
+  
+    padding: 50px;
+    
+    background-color: transparent;
+    background-position: center;
+    text-align: center;
+    
+    color: rgba(249, 243, 114, 0.576);
+    background-size: 100% 270%;
+    background-repeat: no-repeat;
+    text-shadow: 2px 2px #341515;
+    font-style: italic;
+  }*/
 nav {
   display: flex;
   flex-direction: row;
   background-color: #333; }
   nav a {
-    color: #ebeb60;
+    color: #9c9c68;
     padding: 14px 20px;
     text-decoration: none; }
 
@@ -367,29 +371,12 @@ nav {
 footer {
   padding: 20px;
   text-align: center;
-  background-color: #ebeb60; }
-
-@media screen and (max-width: 350px) {
-  nav,
-  .rower {
-    flex-direction: column; } }
+  background-color: #9c9c68; }
 
 img {
   max-width: 95%;
   width: 320px;
   height: 260px; }
-
-.rower {
-  grid-template: auto;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px; }
-
-.selection {
-  grid-template: auto;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px; }
 
 /*@media(min-width: 320px) {
     .rower {
@@ -409,54 +396,6 @@ img {
       grid-template-columns: repeat(3, 1 fr);
     }
   }*/
-/*.rower aside {
-  
-    width: 70%;
-    max-width: 1000px;
-    margin: auto;
-    padding: 60px;
-    margin-top: 100px;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-  }*/
-/*.seccion {
-  
-    width: 70%;
-    max-width: 1000px;
-    margin: auto;
-    padding: 60px;
-    margin-top: 100px;
-    font-family: Arial, Helvetica, sans-serif
-  }*/
-/*.seccion img {
-    width: 300px;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-  
-  }*/
-/*aside {
-  
-    flex: 30px;
-    background-color: rgb(232, 232, 142);
-    padding: 20px;
-  }*/
-/* aside p {
-    font-size: 18px;
-    font-weight: 300;
-  
-  }*/
-/*  .aside img {
-    width: 300px;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-  
-  
-  }*/
-.selection p {
-  font-size: 18px;
-  font-weight: 300; }
-
 .bratitulo {
   font-size: 40px;
   color: #384f13; }
@@ -471,13 +410,13 @@ img {
     text-decoration: none; }
 
 .quienparr h3 {
-  color: #f14d4d;
+  color: #973737;
   text-decoration: solid; }
 
 .servinav {
   display: flex;
   flex-direction: row;
-  background-color: #86d640; }
+  background-color: rgba(64, 209, 214, 0.505); }
   .servinav a {
     color: white;
     padding: 14px 20px;
@@ -507,12 +446,7 @@ img {
 
 .tituloh1 {
   font-family: initial;
-  color: #f14d4d; }
-
-body {
-  height: 100%;
-  font-family: 'Noto Sans', sans-serif;
-  background-color: #0a3a40; }
+  color: #973737; }
 
 .contact_form {
   width: 460px;
@@ -604,17 +538,6 @@ h3 {
 .footerquien {
   background-image: linear-gradient(left, #00fffb, #f96060); }
 
-.imagenn {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin: 10px; }
-  .imagenn img {
-    height: 150px;
-    width: 150px;
-    transform: scale(1.2); }
-
 .footer-vuelos {
   margin-top: 80px;
   text-align: center;
@@ -624,20 +547,156 @@ h3 {
 .footer-servicios {
   margin-top: 80px;
   text-align: center;
-  background-color: #c97979;
+  background-color: #973737;
   color: #f6c968; }
 
 .footer-quienessomos {
   margin-top: 80px;
   text-align: center;
-  background-color: #9df276;
+  background-color: #973737;
   color: #68dcf6; }
 
 .footer-contactos {
   margin-top: 80px;
   text-align: center;
   background-color: #9888f3;
-  color: #f168f6; }
+  color: #535353; }
 
 .row-headerr {
   background-image: url("../multimedia/2.jpg"); }
+
+.imagenn {
+  background-image: url("https://infolibros.org/wp-content/uploads/2021/07/Libros-de-Aviones.jpg?ezimgfmt=ng:webp/ngcb33"); }
+
+.servicios {
+  background: url(../multimedia/servi.jpg) no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: center; }
+
+/*variables*/
+.cajaimagen {
+  width: 150px; }
+
+/*body{
+      @if $festividad == navidad{
+  background-color: brown;
+  } @else if $festividad == pascuas{
+      background-color: rgb(33, 46, 46);
+  } @else {
+      background-color: chocolate;
+      }
+  }*/
+.btn--twitter {
+  background-color: #55acee; }
+
+.btn--facebook {
+  background-color: #3a5795; }
+
+.btn--instagram {
+  background-color: #c53; }
+
+.box_uno {
+  width: 1245px;
+  height: 250px;
+  background-color: #676666;
+  border-radius: 3%;
+  text-align: center;
+  margin: 5px; }
+
+.box_uno {
+  color: #281414; }
+
+h1 {
+  background-color: #7f9ac3;
+  color: #ede3e3;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.4em;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 12px; }
+
+div.destacado {
+  border: 1px solid #973737;
+  padding: 10px 20px; }
+
+.quienbody {
+  background-color: #f85353; }
+
+.body-contac {
+  background-color: #052a23; }
+
+.qsomos {
+  background: url(../multimedia/banner.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 600px; }
+
+.hvuelos {
+  background: url(../multimedia/ep_avion_despegando.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 600px; }
+
+/*background-size: cover;
+height: 250px;
+width: center;*/
+.titprincipal {
+  animation-duration: 3s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+.h1servi {
+  animation-duration: 3s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+.h1vuelos {
+  animation-duration: 3s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+.h1quien {
+  animation-duration: 3s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+.contache {
+  background: url(../multimedia/call-centers5.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 600px; }

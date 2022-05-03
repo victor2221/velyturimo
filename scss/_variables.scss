@@ -1,12 +1,26 @@
-$colorprincipal: rgb(235, 235, 96);
+$colorprincipal: rgb(156, 156, 104);
  
-$colorsecundario: rgb(241, 77, 77);
+$colorsecundario: rgb(151, 55, 55);
+$color-blanco:#ede3e3;
+
+$color-texto: #687765;
 
 $titulosgrade: 20px;
 
 $titulopequeño: 10px;
 
-$anchototal: 100px;
+$espaciado-estandar: 10px;
+
+$espaciado-doble: 20px;
+
+$fuente-normal: 1em;
+$fuente-pequena: 0.8em;
+$fuente-grande: 1.4em;
+
+$tipografia-general: arial, verdana, sans-serif;
+$tipografia-alternativa: 'Times New Roman', Times, serif;
+
+$anchototal: 300px;
 .cajaimagen{
 width: $anchototal/2;
 
@@ -14,7 +28,7 @@ width: $anchototal/2;
 
 $festividad: pascuas;
 
-body{
+/*body{
     @if $festividad == navidad{
 background-color: brown;
 } @else if $festividad == pascuas{
@@ -22,7 +36,7 @@ background-color: brown;
 } @else {
     background-color: chocolate;
     }
-}
+}*/
 
 $redes: (
     twitter: #55acee,
@@ -37,3 +51,9 @@ $redes: (
     }
     
 }
+$estilos: ( 
+color: #367309,
+centro: center,
+tfuente: 35px,
+1rem : 1rem
+);
