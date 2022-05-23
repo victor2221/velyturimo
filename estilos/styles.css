@@ -138,7 +138,7 @@ button p {
 .contactos {
   background-image: linear-gradient(left, #eeee60, #f15c5c); }
 
-.footer-index {
+footer-index {
   margin-top: 80px;
   text-align: center;
   background-color: #f14d79;
@@ -215,51 +215,7 @@ img {
   font-size: 40px;
   color: #422606; }
 
-/*.rower aside {
-  
-    width: 70%;
-    max-width: 1000px;
-    margin: auto;
-    padding: 60px;
-    margin-top: 100px;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-  }*/
-/*.seccion {
-  
-    width: 70%;
-    max-width: 1000px;
-    margin: auto;
-    padding: 60px;
-    margin-top: 100px;
-    font-family: Arial, Helvetica, sans-serif
-  }*/
-/*.seccion img {
-    width: 300px;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-  
-  }*/
-/*aside {
-  
-    flex: 30px;
-    background-color: rgb(232, 232, 142);
-    padding: 20px;
-  }*/
-/* aside p {
-    font-size: 18px;
-    font-weight: 300;
-  
-  }*/
-/*  .aside img {
-    width: 300px;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-  
-  
-  }*/
-.selection p {
+selection p {
   font-size: 18px;
   font-weight: 300; }
 
@@ -340,20 +296,6 @@ h3 {
   padding: 0;
   margin: 0; }
 
-/*header {
-  
-    padding: 50px;
-    
-    background-color: transparent;
-    background-position: center;
-    text-align: center;
-    
-    color: rgba(249, 243, 114, 0.576);
-    background-size: 100% 270%;
-    background-repeat: no-repeat;
-    text-shadow: 2px 2px #341515;
-    font-style: italic;
-  }*/
 nav {
   display: flex;
   flex-direction: row;
@@ -378,39 +320,21 @@ img {
   width: 320px;
   height: 260px; }
 
-/*@media(min-width: 320px) {
-    .rower {
-      display: grid;
-      grid-template-columns: repeat(2, 1 fr);
-    }
-  }*/
-/*@media(min-width: 768px) {
-    .rower {
-      display: grid;
-      grid-template-columns: repeat(2, 1 fr);
-    }
-  }*/
-/* @media (min-width: 1200px) {
-    .rower {
-      display: grid;
-      grid-template-columns: repeat(3, 1 fr);
-    }
-  }*/
 .bratitulo {
   font-size: 40px;
   color: #384f13; }
 
-.quiennav {
+.quienparr {
   display: flex;
   flex-direction: row;
-  background-color: #862c2c; }
-  .quiennav a {
+  background-color: rgba(240, 198, 85, 0.5); }
+  .quienparr a {
     color: white;
     padding: 14px 20px;
     text-decoration: none; }
 
 .quienparr h3 {
-  color: #973737;
+  color: rgba(78, 64, 64, 0.603);
   text-decoration: solid; }
 
 .servinav {
@@ -446,12 +370,12 @@ img {
 
 .tituloh1 {
   font-family: initial;
-  color: #973737; }
+  color: rgba(78, 64, 64, 0.603); }
 
 .contact_form {
-  width: 460px;
-  height: auto;
-  margin: 80px auto;
+  width: center;
+  height: center;
+  margin: auto;
   border-radius: 10px;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -481,8 +405,8 @@ button {
   margin-bottom: 20px;
   margin-top: 10px;
   text-transform: uppercase;
-  background-color: #ab4493;
-  border-color: #ab4493;
+  background-color: #2d412f81;
+  border-color: #ee1f1fc9;
   border-style: solid;
   border-radius: 10px;
   width: 420px;
@@ -498,11 +422,12 @@ button p {
   font-size: 13px;
   color: #0e0e0e; }
 
-h1 {
-  font-size: 39px;
-  text-align: letf;
-  padding-bottom: 20px;
-  color: #ab4493; }
+.formularioh1 {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #1a0c0c;
+  width: 400px; }
 
 h3 {
   font-size: 16px;
@@ -532,12 +457,6 @@ h3 {
 .mainss p {
   color: brown; }
 
-.contactos {
-  background-image: linear-gradient(left, #eeee60, #f15c5c); }
-
-.footerquien {
-  background-image: linear-gradient(left, #00fffb, #f96060); }
-
 .footer-vuelos {
   margin-top: 80px;
   text-align: center;
@@ -547,13 +466,13 @@ h3 {
 .footer-servicios {
   margin-top: 80px;
   text-align: center;
-  background-color: #973737;
+  background-color: rgba(78, 64, 64, 0.603);
   color: #f6c968; }
 
 .footer-quienessomos {
   margin-top: 80px;
   text-align: center;
-  background-color: #973737;
+  background-color: rgba(78, 64, 64, 0.603);
   color: #68dcf6; }
 
 .footer-contactos {
@@ -561,18 +480,6 @@ h3 {
   text-align: center;
   background-color: #9888f3;
   color: #535353; }
-
-.row-headerr {
-  background-image: url("../multimedia/2.jpg"); }
-
-.imagenn {
-  background-image: url("https://infolibros.org/wp-content/uploads/2021/07/Libros-de-Aviones.jpg?ezimgfmt=ng:webp/ngcb33"); }
-
-.servicios {
-  background: url(../multimedia/servi.jpg) no-repeat;
-  background-size: cover;
-  height: 250px;
-  width: center; }
 
 /*variables*/
 .cajaimagen {
@@ -596,15 +503,15 @@ h3 {
 .btn--instagram {
   background-color: #c53; }
 
-.box_uno {
+.pquienes {
   width: 1245px;
   height: 250px;
-  background-color: #676666;
+  background-color: #fffb2491;
   border-radius: 3%;
   text-align: center;
   margin: 5px; }
 
-.box_uno {
+.pquienes {
   color: #281414; }
 
 h1 {
@@ -621,13 +528,24 @@ div.destacado {
   padding: 10px 20px; }
 
 .quienbody {
-  background-color: #f85353; }
+  background-color: rgba(248, 189, 99, 0.466); }
 
 .body-contac {
-  background-color: #052a23; }
+  background-color: #11998083; }
+
+.bodyvuelos {
+  background-color: #331a1a93; }
 
 .qsomos {
   background: url(../multimedia/banner.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 600px; }
+
+.servicios {
+  background: url(../multimedia/servi.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -642,9 +560,34 @@ div.destacado {
   background-size: cover;
   height: 600px; }
 
-/*background-size: cover;
-height: 250px;
-width: center;*/
+.headerindex {
+  background: url(../multimedia/2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 600px; }
+
+.contache {
+  background: url(../multimedia/callcentercontac.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 600px; }
+
+.contactosh1 {
+  animation-duration: 3s;
+  animation-name: slidein; }
+
+.h1quien {
+  animation-duration: 3s;
+  animation-name: slidein; }
+
+.tituloquien {
+  font-size: 30px;
+  color: rgba(24, 14, 14, 0.589); }
+
 .titprincipal {
   animation-duration: 3s;
   animation-name: slidein; }
@@ -681,10 +624,6 @@ width: center;*/
     margin-left: 0%;
     width: 100%; } }
 
-.h1quien {
-  animation-duration: 3s;
-  animation-name: slidein; }
-
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -693,10 +632,49 @@ width: center;*/
     margin-left: 0%;
     width: 100%; } }
 
-.contache {
-  background: url(../multimedia/call-centers5.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 600px; }
+/* footer */
+.footer-style {
+  padding-top: 50px;
+  background-color: #2C3E50; }
+
+footer {
+  color: white; }
+
+footer h3 {
+  margin-bottom: 30px;
+  font-weight: 800; }
+
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #2C3E50; }
+
+footer .footer-col {
+  margin-bottom: 50px; }
+
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #233140; }
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.card-columns .card {
+  display: inline-block;
+  width: 100%; }
+
+.card-img-top {
+  width: 100%;
+  height: 200px !important;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px); }
+
+.pquienes {
+  font-style: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 1 300px; }

@@ -12,21 +12,6 @@
   }
   
   
-  /*header {
-  
-    padding: 50px;
-    
-    background-color: transparent;
-    background-position: center;
-    text-align: center;
-    
-    color: rgba(249, 243, 114, 0.576);
-    background-size: 100% 270%;
-    background-repeat: no-repeat;
-    text-shadow: 2px 2px #341515;
-    font-style: italic;
-  }*/
-  
   nav {
     display: flex;
     flex-direction: row;
@@ -68,26 +53,7 @@
   }
   
  
-    /*@media(min-width: 320px) {
-    .rower {
-      display: grid;
-      grid-template-columns: repeat(2, 1 fr);
-    }
-  }*/
-  
-  /*@media(min-width: 768px) {
-    .rower {
-      display: grid;
-      grid-template-columns: repeat(2, 1 fr);
-    }
-  }*/
-  
-  /* @media (min-width: 1200px) {
-    .rower {
-      display: grid;
-      grid-template-columns: repeat(3, 1 fr);
-    }
-  }*/
+   
   
  
   
@@ -97,10 +63,10 @@
   
   }
   
-  .quiennav {
+  .quienparr {
     display: flex;
     flex-direction: row;
-    background-color: rgb(134, 44, 44);
+    background-color: rgba(240, 198, 85, 0.5);
      a {
     color: white;
     padding: 14px 20px;
@@ -110,7 +76,7 @@
   
   .quienparr h3 {
     color: $colorsecundario;
-    text-decoration: solid;
+    text-decoration:solid;
   }
   
   .servinav {
@@ -158,9 +124,9 @@
   }
   
   .contact_form {
-    width: 460px;
-    height: auto;
-    margin: 80px auto;
+    width: center;
+    height: center;
+    margin:  auto;
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -195,8 +161,8 @@
     margin-bottom: 20px;
     margin-top: 10px;
     text-transform: uppercase;
-    background-color: #ab4493;
-    border-color: #ab4493;
+    background-color: #2d412f81;
+    border-color: #ee1f1fc9;
     border-style: solid;
     border-radius: 10px;
     width: 420px;
@@ -220,11 +186,13 @@
   }
   
   
-  h1 {
-    font-size: 39px;
-    text-align: letf;
-    padding-bottom: 20px;
-    color: #ab4493;
+  .formularioh1 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #1a0c0c;
+    width: 400px;
+  
   }
   
   
@@ -264,17 +232,7 @@
   color: brown;
   
   }
-  .contactos{
-    background-image: linear-gradient(left, rgb(238, 238, 96), rgb(241, 92, 92));
-  }
   
-  .footerquien{
-    background-image: linear-gradient(left, rgb(0, 255, 251) , rgb(249, 96, 96));
-  }
-  
- 
-  
-
 .footer-vuelos {
     
   margin-top: 80px;
@@ -309,25 +267,6 @@
   color: rgb(83, 83, 83);
 
 
-}
-
-
-
-.row-headerr{
-background-image: url("../multimedia/2.jpg");
-}
-
-.imagenn{
-  background-image: url("https://infolibros.org/wp-content/uploads/2021/07/Libros-de-Aviones.jpg?ezimgfmt=ng:webp/ngcb33");
-}
-
-.servicios{
-
- background: url(../multimedia/servi.jpg) no-repeat  ;
- background-size: cover;
- height: 250px;
- width: center; 
- 
 }
 
 /*variables*/
@@ -401,14 +340,18 @@ background-image: url("../multimedia/2.jpg");
         margin: 5px;
       } 
       
-      .box_uno{
-        @include container(1245px, 250px, #676666)
+      .pquienes{
+        @include container(1245px, 250px, #fffb2491)
       }
 
-      .box_uno {
+      .pquienes {
         color: #281414;}
     
        
+
+       
+
+
       
         h1 {
           background-color: $colorprincipal;
@@ -430,23 +373,40 @@ background-image: url("../multimedia/2.jpg");
 
     
       .quienbody{
-        background-color: rgb(248, 83, 83);
+        background-color: rgba(248, 189, 99, 0.466);
       }
 
       .body-contac{
-        background-color: #052a23;
+        background-color: #11998083;
       }
       
+     .bodyvuelos{
+      background-color: #331a1a93;
+     }
+     
+     
+     .qsomos{
 
-.qsomos{
-
-background: url(../multimedia/banner.jpg);
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center center;
-background-size: cover;
-height: 600px;
+      background: url(../multimedia/banner.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center center;
+      background-size: cover;
+      height: 600px;
 }
+
+
+
+.servicios{
+
+  background: url(../multimedia/servi.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+  
+ }
 
 .hvuelos{
   background: url(../multimedia/ep_avion_despegando.jpg);
@@ -457,9 +417,43 @@ height: 600px;
   height: 600px;
 }
 
-/*background-size: cover;
-height: 250px;
-width: center;*/
+.headerindex{
+  background: url(../multimedia/2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+}
+
+
+.contache{
+  background: url(../multimedia/callcentercontac.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.contactosh1{
+
+  animation-duration: 3s;
+  animation-name: slidein;
+
+}
+
+.h1quien{
+
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.tituloquien{
+  font-size: 30px;
+    color: rgba(24, 14, 14, 0.589);
+  
+  }
 
 
 .titprincipal {
@@ -518,11 +512,7 @@ width: center;*/
 
 }
 
-.h1quien{
 
-  animation-duration: 3s;
-  animation-name: slidein;
-}
 
 @keyframes slidein {
   from {
@@ -537,12 +527,55 @@ width: center;*/
 
   }
 
-  
-  .contache{
-    background: url(../multimedia/call-centers5.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    height: 600px;
-  }
+   /* footer */
+
+.footer-style {
+  padding-top: 50px;
+  background-color: #2C3E50;
+}
+footer {
+color: white;
+}
+footer h3 {
+margin-bottom: 30px;
+  font-weight: 800;
+}
+footer .footer-above {
+padding-top: 50px;
+background-color: #2C3E50;
+}
+footer .footer-col {
+margin-bottom: 50px;
+}
+footer .footer-below {
+padding: 25px 0;
+background-color: #233140;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.card-columns .card {
+  display: inline-block;
+  width: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px !important; 
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.pquienes{
+  font-style: $tipografia-alternativa;
+  font-weight: bold;
+  font-size:  1$anchototal;
+}
