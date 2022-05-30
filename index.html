@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<meta charset="UTF-8">
@@ -14,60 +14,70 @@
 	<title>velyturismo</title>
 </head>
 
-
-    <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+<body>
+    <header>
+		
 		<div class="container-fluid">
-		  <a class="navbar-brand" style="color: rgb(250, 184, 84);" href="paginas/contacto.html">contacto</a>
-		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		  </button>
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-			  <li class="nav-item">
-				<a class="nav-link active" style="color: rgb(246, 173, 56);"aria-current="page" href="paginas/quienessomos.html">nosotros</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" style="color: rgb(250, 163, 49);" href="paginas/servicios.html">servicios</a>
-			  </li>
-			  <li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" style="color: rgb(250, 163, 49);" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-				  Destinos
-				</a>
-				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-				  <li><a class="dropdown-item" style="color: rgba(247, 116, 8, 0.713);"  href="paginas/vuelos.html">vuelos</a></li>
-				  <li><a class="dropdown-item" style="color: rgba(251, 136, 14, 0.718);"  href="#">hoteles</a></li>
-				  <li><hr class="dropdown-divider"></li>
-				  <li><a class="dropdown-item" style="color: rgba(247, 162, 14, 0.567);"  href="#">promociones</a></li>
-				</ul>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link disabled" style="color: rgb(250, 163, 49);" >Paquetes </a>
-			  </li>
-			</ul>
-			<form class="d-flex">
-			  <input class="form-control me-2" type="BUSCAR" placeholder="BUSCAR" aria-label="BUSCAR">
-			  <button class="btn btn-outline-success" type="submit">BUSCAR</button>
-			</form>
-		  </div>
-		</div>
-	  </nav>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid">
+					
+						<a href="index.html"><img src="./multimedia/velys.png" class="logo" alt="logo ">
+				
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
+					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						  <li class="nav-item">
+							<a class="nav-link active"  style="color: rgb(255, 122, 89);" aria-current="page" href="./paginas/quienessomos.html">quienessomos<span class="sr-only">(current)</span></a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" style="color: rgb(255, 122, 89);" href="./paginas/contacto.html">contacto</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" style="color: rgb(255, 122, 89);" href="./paginas/vuelos.html">vuelos</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" style="color: rgb(255, 122, 89);" href="./paginas/servicios.html">servicios</a>
+						  </li>
+					</ul>
+				</div>  
+		   </div>
+	 </nav>
 	  
-	  <body class="index-body">
+	 
+
+<div class="imagens"></div>
 
 
-		<header class="headerindex">
-			<h1 class="titprincipal">velyturismo</h1>
-		</header>
-	
-	
-	  <main class="row main">
-	    <h1 class="hindex" style="color: rgba(143, 35, 3, 0.781);">LAS MEJORES PROMOCIONES!!</h1>
-		<h1 class="promo" aria-atomic="true"  style="color: rgba(10, 7, 6, 0.562);">LLEGAN PROMOCIONES ESPECIALES PARA QUE PUEDAS IR DONDE TE GUSTE</h1>
-			
-			
-	            <h2 class="pre" style="color: rgba(94, 143, 3, 0.781);">ESTAS EN EL LUGAR INDICADO</h2>
-    </main>
+
+
+
+
+<div class=""> 
+  <label for="datemax">fecha-ida</label>
+  <input type="date" id="datemax" name="datemax" max="2022-12-31"><br>
+
+  <label for="datemin">fecha-vuelta</label>
+  <input type="date" id="datemin" name="datemin" min="2024-01-02"><br>
+  
+  <label for="quantity">origen:</label>
+  <input type="name" id="quantity" name="quantity" min="1" max="5"><br>
+
+  <label for="quantity">destino</label>
+  <input type="name"  id="quantity" name="quantity" min="1" max="5"><br>
+  
+  <input type="submit" value="buscar">
+</form>
+</div> 
+
+
+
+<section>
+	    <h1 class="parrfq">LAS MEJORES PROMOCIONES!!</h1>
+		<p class="parrfq">LLEGAN PROMOCIONES ESPECIALES PARA QUE PUEDAS IR DONDE TE GUSTE</p>
+		<h2 class="h2text">ESTAS EN EL LUGAR INDICADO!!</h2>
+	</section>
 	
 	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-inner">
@@ -89,70 +99,58 @@
 	  </div>
 	
 	
-	<div class="rower">
-		<aside class="row aside">
-        <h2 class="urutitulo"style="color: rgba(161, 137, 0, 0.781);" >Uruguay​</h2>
-			<img src="multimedia/vacaciones-en-playa-la-mansa___dSvNkLeK_1256x620__1.webp" class= "img-fluid" alt="playa uruguay">
-			<p class="" style="color: rgba(161, 137, 0, 0.781);" >La costa uruguaya, con sus playas de estuario y mar, con sus opciones más familiares o más
+	<div>
+		<aside>
+        <h3 class="h4text">Uruguay​</h3>
+			<img src="multimedia/vacaciones-en-playa-la-mansa___dSvNkLeK_1256x620__1.webp" class= "img-fluid"  alt="playa uruguay">
+			<p class="parrfq">La costa uruguaya, con sus playas de estuario y mar, con sus opciones más familiares o más
 				faranduleras, siempre figura entre los lugares preferidos por los argentinos que viajan al exterior. El
 				verano pasado, entre diciembre 2021 y abril 2022, 1.054.261 argentinos pasaron sus vacaciones en
 				Uruguay.​</p>
 		</aside>
 </div>
 		<div>
-			<section class="row aside">
-				<h2 class="" style="color: rgba(161, 137, 0, 0.781);">BRAZIL</h2>
+			<section>
+				<h4 class="h4text">BRAZIL</h4>
 				<img src="multimedia/estatua-de-jesucristo-en-brasil-brazil-jesus-christ-statue-1920x1200-wallpaper.jpg" class= "img-fluid" alt="playa brasil">
-				<p class=""style="color: rgba(161, 137, 0, 0.781);" > Río de Janeiro es considerado uno de los lugares mas bellos del planeta. Cuenta con más de 7
+				<p class="parrfq"> Río de Janeiro es considerado uno de los lugares mas bellos del planeta. Cuenta con más de 7
 					millones de habitantes a quienes se los conoce como «cariocas». En Río no solo se encuentra la gente
 					que a diario disfruta de las playas, el sol y el mar, gran parte de su población habita las llamadas
 					«favelas», especie de barrios situados en las laderas de la colinas que rodean la ciudad. </p>
 			</section>
 
 		</div>
-<form>
-	<label for="PAIS">ELIGE EL PAIS:</label>
-		<select name="" id="">
-			<option value="arg">argentina</option>
-				<option value="chi">brazil</option>
-			<option value="no">nose</option>
-		</select>
 
-</form>
 		
 		
-<footer class="footerindex">
-				<div class="container">
-				<div class="row justify-content-center">
-				<div class="col-md-12 text-center">
-				<h2 class="footer-heading"><a href="#" class="logo">velyturismo.com</a></h2>
-				<p class="menu">
+<footer>
+			
+				
+			<div>
+				<h2><a href="#" class="logo">velyturismo.com</a></h2>
+				<div>
 				<a href="#">home</a>
 				<a href="paginas/quienessomos.html">nosotros</a>
 				<a href="paginas/servicios.html">servicios</a>
 				<a href="paginas/vuelos.html">vuelos</a>
 				<a href="paginas/contacto.html">contacto</a>
-				<a href="#">actividades</a>
-				</p>
-				<div class="redesindex">
+				
+			</div>
+		<div class="redesindex">
 				<a href="http://www.facebook.com/NOMBREDEPERFILONUMERO" class="facebook"><li class="fab fa-facebook-f"></li></a>
 				<a href="http://instagram.com/tu_usuario" class="instragram"><li class="fab fa-instagram"></li></a>
 				<a href="https://publish.twitter.com/" class="twitter" ><li class="fab fa-twitter"></li></a>
 				<a href="https://www.youtube.com/" class="youtube"><li class="fab fa-youtube"></li></a>
 			
 			
-				</div>
-				</div>
-				</div>
-				<div class="row mt-5">
-				<div class="col-md-12 text-center">
+		</div>
+				
+		<div>
 				<p class="copyright">
 				velyturismo ©<script2022>2022
 				</p>
-				</div>
-				</div>
-				
-				</footer>
+		</div>
+</footer>
 		
 		
 		
@@ -161,7 +159,6 @@
 		  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
 
-
-	</body>
-
-</html>
+		    </header>
+	     </body>
+    </html>

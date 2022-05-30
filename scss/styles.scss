@@ -1,31 +1,16 @@
 @import "variables";
-@import "header";
 @import "contactos";
 @import "footer";
 @import "mediaqueries";
 
 
-* {
+  * {
     padding: 0;
     margin: 0;
-  
-  }
-  
-  
-  nav {
-    display: flex;
-    flex-direction: row;
-    background-color: #333;
-  a {
-    color: $colorprincipal;
-    padding: 14px 20px;
-    text-decoration: none;
-  }
-}
+    }
   
   
-  
-  .seccion {
+.seccion {
   
   
     flex: 30px;
@@ -34,125 +19,87 @@
   
   }
   
-  footer {
-    padding: 20px;
-    text-align: center;
-    background-color: $colorprincipal;
-  }
   
-   @media screen and (max-width: 350px) {
+  
+ /* @media screen and (max-width: 350px) {
   
    
-  }
+  }*/
   
-  img {
+  /*img {
     max-width: 95%;
     width: 320px;
     height: 260px;
   
-  }
+  }*/
   
- 
+ /*h*/
    
-  
+ .h1text {
+    font-size: $titulosgrade;
+    font-family: $tipografia-general;
+    color: $colorprincipal2;
+  }
  
   
-  .bratitulo {
-    font-size: 40px;
-    color: rgb(56, 79, 19);
-  
-  }
-  
-  .quienparr {
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(240, 198, 85, 0.5);
-     a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
- }
-  }
-  
-  .quienparr h3 {
+  .h2text {
+    font-size: $titulosgrade;
     color: $colorsecundario;
     text-decoration:solid;
+    font-family: $tipografia-alternativa2;
   }
   
-  .servinav {
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(64, 209, 214, 0.505);
-  a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-  
-    }
-}
-  .vuelosnav {
-  
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(8, 79, 104);
-   a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    }
+  .h3text {
+    color: $colorprincipal5;
+    text-decoration:solid;
+    font-size: $titulosgrade;
   }
-  
-  .servicios2 {
-    background-color: aquamarine;
-    text-align: center;
-    color: rgba(249, 243, 114, 0.576);
-    text-shadow: 2px 1px #341515;
-    font-style: italic;
-  }
-  
-  .lugart {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: inherit;
-    text-align: left;
-    color: rgb(194, 210, 20);
-  }
-  
-  .tituloh1 {
-    font-family: initial;
+
+  .h4text {
     color: $colorsecundario;
-  
+    text-decoration:solid;
+    font-size: $titulosgrade;
   }
+
+
+
+
+
+  
+  
+  /*formulario*/
   
   .contact_form {
-    width: center;
-    height: center;
-    margin:  auto;
+    width: 460px;
+    height: auto ;
+    margin: 80px auto;
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 20px;
-    background-color: #fbfbfb;
+    background-color: $colorsecundario2;
     padding-left: 30px;
   }
   
   
   input {
-    background-color: #fbfbfb;
+    background-color: $color-blanco;
     width: 408px;
     height: 40px;
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
-    border-color: #2e3114;
+    border-color: $colorprincipal;
     margin-top: 10px;
     padding-left: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
+    
+    
   }
   
   label {
     display: block;
     float: center;
   }
-  
   
   button {
     height: 45px;
@@ -161,8 +108,8 @@
     margin-bottom: 20px;
     margin-top: 10px;
     text-transform: uppercase;
-    background-color: #2d412f81;
-    border-color: #ee1f1fc9;
+    background-color: $colorsecundario;
+    border-color: #ab4493;
     border-style: solid;
     border-radius: 10px;
     width: 420px;
@@ -176,23 +123,13 @@
   
   
   .obligatorio {
-    color: #052a23;
+    color: $colorsecundario4;
   }
   
   
   .aviso {
     font-size: 13px;
     color: #0e0e0e;
-  }
-  
-  
-  .formularioh1 {
-    font-size: 20px;
-    text-align: center;
-    padding-bottom: 10px;
-    color: #1a0c0c;
-    width: 400px;
-  
   }
   
   
@@ -210,105 +147,87 @@
   
   .formulario input:focus {
     outline: 0;
-    border: 1px solid #97d848;
+    border: 1px solid $colorprincipal3;
   }
   .formulario textarea:focus {
     outline: 0;
-    border: 1px solid #97d848;
+    border: 1px solid $colorprincipal3;
   }
   
-  .conttitu {
-    color: brown;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+  /*termina formulario*/
   
-  }
+ 
   
-  .titprincipal {
-    color: #efdd4e;
-  }
-  
-  .mainss p{
-  color: brown;
-  
-  }
-  
-.footer-vuelos {
-    
-  margin-top: 80px;
-  text-align: center;
-  background-color: #595555;
-  color: rgb(200, 147, 147);
-}
-
-.footer-servicios{  
-
-  margin-top: 80px;
-  text-align: center;
-  background-color: $colorsecundario;
-  color: rgb(246, 201, 104);
-
-}
-
-.footer-quienessomos{
-
-  margin-top: 80px;
-  text-align: center;
-  background-color: $colorsecundario;
-  color: rgb(104, 220, 246);
-
-}
-
-.footer-contactos{
-
-  margin-top: 80px;
-  text-align: center;
-  background-color: #9888f3;
-  color: rgb(83, 83, 83);
 
 
-}
 
 /*variables*/
-  
-  $colorprincipal: rgb(127, 154, 195);
- 
-  $colorsecundario: rgb(151, 55, 55);
-  
-  $color-texto: #666;
-  $color-blanco:#ede3e3;
-  $titulosgrade: 20px;
-  
-  $titulopequeño: 10px;
-  
-  $espaciado-estandar: 10px;
-  
-  $espaciado-doble: 20px;
-  
-  $fuente-normal: 1em;
-  $fuente-pequena: 0.8em;
-  $fuente-grande: 1.4em;
-  
-  $tipografia-general: arial, verdana, sans-serif;
-  $tipografia-alternativa: 'Times New Roman', Times, serif;
+  /*colores principales*/
 
-  $anchototal:300px;
-  .cajaimagen{
-  width: $anchototal/2;
+$colorprincipal: hsl(7, 99%, 70%);
+$colorprincipal2: hsl(51, 100%, 49%);
+$colorprincipal3: hsl(167, 40%, 24%);
+$colorprincipal4: hsl(198, 62%, 26%);
+$colorprincipal5: hsl(168, 34%, 41%);
+$colorfooter: #90d4c5;
+$color-texto: #666;
+$color-blanco:#ede3e3;
+
+
+/*colores secundarios*/
+  
+$colorsecundario: hsl(212, 27%, 19%);
+$colorsecundario2: hsl(213, 9%, 39%);
+$colorsecundario3: hsl(232, 10%, 55%);
+$colorsecundario4: hsl(210, 4%, 67%);
+$colorsecundario5: #ffff;
+
+/*tipografias*/
+
+$tipografia-general: 'barlow', sans-serif;
+$tipografia-alternativa: 'fraunces', serif;
+$tipografia-alternativa2:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/*tamaños titulos*/
+
+$titulosgrade: 20px;
+$titulopequeño: 10px;
+  
+
+$espaciado-estandar: 10px;
+$espaciado-doble: 20px;
+  
+$fuente-normal: 1em;
+$fuente-pequena: 0.8em;
+$fuente-grande: 1.4em;
+
+
+/*mediaqueries*/
+
+$mediacelular-320: 320px;
+$mediaTablet-640: 640px;
+$mediaDesktop-1240:1240px;
+  
+
+
+  
+  @mixin flexible ( $dis , $direction , $corte , $just , $aling ){
+
+      display: $dis;
+      flex-flow: $direction  $corte;
+      justify-content: $just;
+      align-items: $aling ;
+
   }
   
-  $festividad: pascuas;
-  
-  /*body{
-      @if $festividad == navidad{
-  background-color: brown;
-  } @else if $festividad == pascuas{
-      background-color: rgb(33, 46, 46);
-  } @else {
-      background-color: chocolate;
-      }
-  }*/
-  
+main{ 
+
+  @include flexible(flex , row , nowrap , center , center);
+  }  
+
+section{
+  @include flexible(flex , column, nowrap , flex-start , flex-start);
+
+}
   $redes: (
       twitter: #55acee,
       facebook: #3a5795,
@@ -316,14 +235,14 @@
   );
   
   
-  @each $red, $color in $redes {
+ @each $red, $color in $redes {
       .btn--#{$red} {
           background-color: $color;
       }
     }
 
 
-    $estilos: ( 
+    /*$estilos: ( 
       color: #367309,
       centro: center,
       tfuente: 35px,
@@ -334,129 +253,74 @@
       @mixin container($ancho, $alto, $color) {
         width: $ancho;
         height: $alto;
-        background-color: $color;
+        background-color: $colorprincipal;
         border-radius: 3%;
         text-align: center;
         margin: 5px;
       } 
       
       .pquienes{
-        @include container(1245px, 250px, #fffb2491)
-      }
+        @include container(auto, auto,  $colorsecundario2)
+      }*/
 
-      .pquienes {
-        color: #281414;}
-    
+      
        
-
+     
+        
+      
+     
        
 
 
       
-        h1 {
-          background-color: $colorprincipal;
-          color: $color-blanco;
-          font-family: $tipografia-alternativa;
-          font-size: $fuente-grande;
-          padding: $espaciado-estandar;
-          text-transform: uppercase;
-          border-radius: 12px;
-        }
+.parraf {
+ 
+  font-family: $tipografia-alternativa;
+  font-size: $fuente-grande;
+   }
 
-        div.destacado {
-          border: 1px solid $colorsecundario;
-          padding: $espaciado-estandar $espaciado-doble;
-        }
-
-
-
+   .pvuelos{
 
     
-      .quienbody{
-        background-color: rgba(248, 189, 99, 0.466);
-      }
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: $fuente-grande;
 
-      .body-contac{
-        background-color: #11998083;
-      }
-      
-     .bodyvuelos{
-      background-color: #331a1a93;
-     }
-     
-     
-     .qsomos{
-
-      background: url(../multimedia/banner.jpg);
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center center;
-      background-size: cover;
-      height: 600px;
-}
+   }     
 
 
+   .h2vuelos{
 
-.servicios{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: $fuente-grande;
+   }
+   
+   
+   .h3vuelos{
 
-  background: url(../multimedia/servi.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 600px;
-  
- }
-
-.hvuelos{
-  background: url(../multimedia/ep_avion_despegando.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 600px;
-}
-
-.headerindex{
-  background: url(../multimedia/2.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 600px;
-}
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: $fuente-grande;
 
 
-.contache{
-  background: url(../multimedia/callcentercontac.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 600px;
-}
+   }
 
-.contactosh1{
+   
+/*animacion*/
+
+.h1text{
 
   animation-duration: 3s;
   animation-name: slidein;
 
 }
 
-.h1quien{
-
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-.tituloquien{
+.h1text{
   font-size: 30px;
     color: rgba(24, 14, 14, 0.589);
   
   }
 
 
-.titprincipal {
+.h1text {
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -474,7 +338,7 @@
 
 }
 
-.h1servi {
+h1 {
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -491,66 +355,28 @@
   }
 
 }
-.h1vuelos{
 
 
-  animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-
-
-}
-
-
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-
-  }
 
    /* footer */
 
 .footer-style {
   padding-top: 50px;
-  background-color: #2C3E50;
+  background-color: $colorfooter;
 }
 footer {
-color: white;
+color: $colorsecundario3;
 }
-footer h3 {
-margin-bottom: 30px;
-  font-weight: 800;
-}
-footer .footer-above {
-padding-top: 50px;
-background-color: #2C3E50;
-}
-footer .footer-col {
-margin-bottom: 50px;
-}
-footer .footer-below {
-padding: 25px 0;
-background-color: #233140;
-}
+
+.footern{color: #c53;}
+
+
+
+
+/*carrusel*/
+
+
+
 
 .carousel-item {
   height: 65vh;
@@ -574,8 +400,42 @@ background-color: #233140;
   border-top-right-radius: calc(0.25rem - 1px);
 }
 
-.pquienes{
-  font-style: $tipografia-alternativa;
-  font-weight: bold;
-  font-size:  1$anchototal;
+
+
+
+.imagens{ background: url(../multimedia/2.jpg);
+  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 500px;}
+
+html{ height: 100%;
+
 }
+body{background-image: linear-gradient(#ffffff , rgb(255, 122, 89));
+}
+
+.parrfq{
+  
+    font: oblique bold 100% cursive;
+  
+
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+

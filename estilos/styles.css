@@ -1,15 +1,13 @@
+@charset "UTF-8";
+/*variables*/
+/*colores principales*/
+/*colores secundarios*/
+/*tipografias*/
+/*tamaños titulos*/
+/*mediaqueries*/
 .cajaimagen {
   width: 150px; }
 
-/*body{
-    @if $festividad == navidad{
-background-color: brown;
-} @else if $festividad == pascuas{
-    background-color: aqua;
-} @else {
-    background-color: chocolate;
-    }
-}*/
 .btn--twitter {
   background-color: #55acee; }
 
@@ -19,71 +17,27 @@ background-color: brown;
 .btn--instagram {
   background-color: #c53; }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0; }
-
-/*body {
-      height: 100%;
-      font-family: 'Noto Sans', sans-serif;
-      background-color: rgb(10, 58, 64);
-  }*/
-.index-body {
-  height: 100%;
-  font-family: 'Noto Sans', sans-serif;
-  background-color: #0a3a40; }
-
-header {
-  padding: 50px;
-  background-color: transparent;
-  background-position: center;
-  text-align: center;
-  color: rgba(249, 243, 114, 0.576);
-  background-size: 100% 270%;
-  background-repeat: no-repeat;
-  text-shadow: 2px 2px #341515;
-  font-style: italic; }
-
-nav {
-  display: flex;
-  flex-direction: row;
-  background-color: #333; }
-  nav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none; }
-
-.quiennav {
-  display: flex;
-  flex-direction: row;
-  background-color: #862c2c; }
-  .quiennav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none; }
-
-.servinav {
-  display: flex;
-  flex-direction: row;
-  background-color: #86d640; }
-  .servinav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none; }
-
-.vuelosnav {
-  display: flex;
-  flex-direction: row;
-  background-color: #084f68; }
-  .vuelosnav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none; }
-
-.row-headerr {
-  background-image: url("../multimedia/2.jpg"); }
-
+/*$estilos: ( 
+        color: #367309,
+        centro: center,
+        tfuente: 35px,
+        1rem : 1rem
+        );
+  
+  
+        @mixin container($ancho, $alto, $color) {
+          width: $ancho;
+          height: $alto;
+          background-color: $colorprincipal;
+          border-radius: 3%;
+          text-align: center;
+          margin: 5px;
+        } 
+        
+        .pquienes{
+          @include container(auto, auto,  $colorsecundario2)
+        }*/
+/*formulario*/
 .contact_form {
   width: 460px;
   height: auto;
@@ -91,17 +45,17 @@ nav {
   border-radius: 10px;
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: #fbfbfb;
+  background-color: #5a636c;
   padding-left: 30px; }
 
 input {
-  background-color: #fbfbfb;
+  background-color: #ede3e3;
   width: 408px;
   height: 40px;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: #2e3114;
+  border-color: #fe7867;
   margin-top: 10px;
   padding-left: 10px;
   margin-bottom: 20px; }
@@ -117,7 +71,7 @@ button {
   margin-bottom: 20px;
   margin-top: 10px;
   text-transform: uppercase;
-  background-color: #ab4493;
+  background-color: #23303e;
   border-color: #ab4493;
   border-style: solid;
   border-radius: 10px;
@@ -127,135 +81,12 @@ button {
 button p {
   color: #fff; }
 
-.formulario input:focus {
-  outline: 0;
-  border: 1px solid #97d848; }
-
-.formulario textarea:focus {
-  outline: 0;
-  border: 1px solid #97d848; }
-
-.contactos {
-  background-image: linear-gradient(left, #eeee60, #f15c5c); }
-
-footer-index {
-  margin-top: 80px;
-  text-align: center;
-  background-color: #f14d79;
-  color: #707070; }
-
-.footerquien {
-  background-image: linear-gradient(left, #00fffb, #f96060); }
-
-.footer-vuelos {
-  margin-top: 80px;
-  text-align: center;
-  background-color: #535353;
-  color: #ea7b7b; }
-
-.footer-servicios {
-  margin-top: 80px;
-  text-align: center;
-  background-color: #c97979;
-  color: #f6c968; }
-
-.footer-quienessomos {
-  margin-top: 80px;
-  text-align: center;
-  background-color: #9c9c68;
-  color: #68dcf6; }
-
-.footer-contactos {
-  margin-top: 80px;
-  text-align: center;
-  background-color: #9888f3;
-  color: #f168f6; }
-
-/*@media(min-width: 320px) {
-    .rower {
-      display: grid;
-      grid-template-columns: repeat(2, 1 fr);
-    }
-  }*/
-/*@media(min-width: 768px) {
-    .rower {
-      display: grid;
-      grid-template-columns: repeat(2, 1 fr);
-    }
-  }*/
-/* @media (min-width: 1200px) {
-    .rower {
-      display: grid;
-      grid-template-columns: repeat(3, 1 fr);
-    }
-  }*/
-@media screen and (max-width: 350px) {
-  nav,
-  .rower {
-    flex-direction: column; } }
-
-img {
-  max-width: 95%;
-  width: 320px;
-  height: 260px; }
-
-.rower {
-  grid-template: auto;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px; }
-
-.selection {
-  grid-template: auto;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px; }
-
-.urutitulo {
-  font-size: 40px;
-  color: #422606; }
-
-selection p {
-  font-size: 18px;
-  font-weight: 300; }
-
-.bratitulo {
-  font-size: 40px;
-  color: #384f13; }
-
-.quienparr h3 {
-  color: #f94747;
-  text-decoration: solid; }
-
-.servicios2 {
-  background-color: aquamarine;
-  text-align: center;
-  color: rgba(249, 243, 114, 0.576);
-  text-shadow: 2px 1px #341515;
-  font-style: italic; }
-
-.lugart {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-style: inherit;
-  text-align: left;
-  color: #c2d214; }
-
-.tituloh1 {
-  font-family: initial;
-  color: #ffa56a; }
-
 .obligatorio {
-  color: #052a23; }
+  color: #a7abae; }
 
 .aviso {
   font-size: 13px;
   color: #0e0e0e; }
-
-h1 {
-  font-size: 39px;
-  text-align: letf;
-  padding-bottom: 20px;
-  color: #ab4493; }
 
 h3 {
   font-size: 16px;
@@ -266,130 +97,125 @@ h3 {
   font-size: 14px;
   color: #0e0e0e; }
 
-.conttitu {
-  color: brown;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px; }
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #25564b; }
 
-.titprincipal {
-  color: #efdd4e; }
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #25564b; }
 
-.mainss p {
-  color: brown; }
+/*termina formulario*/
+footer {
+  margin-top: 80px;
+  text-align: center;
+  background-color: #33383d;
+  color: #666; }
 
-.imagenn {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin: 10px; }
-  .imagenn img {
-    height: 150px;
-    width: 150px;
-    transform: scale(1.2); }
+/*@media(min-width: 1200px){
+  nav, .servicios, .footer , {
+      width:60%;
+      margin:auto;
+  }
+}
 
-.row main {
-  color: #e4923a;
-  font-family: Arial, Helvetica, sans-serif; }
 
+// Pantallas medianas
+
+@media(max-width:768px){
+  .div, .tipo-servicios{
+      flex-direction: column;
+  }
+  
+
+  .div{
+      text-align:center;
+      margin-bottom: 30px;
+  }
+
+  nav{
+      @include caja-flex(center, center, wrap);
+      padding-bottom: 20px;
+      padding-top:20px;
+      ul{
+          padding-left:0;
+      }
+  }
+}
+
+
+// Pantallas pequeñas
+
+@media(max-width:480px){
+
+   .div{
+      text-align:center;
+      margin-bottom:30px;
+      h1, p{
+          padding:0;
+      }
+  }
+}*/
 * {
   padding: 0;
   margin: 0; }
-
-nav {
-  display: flex;
-  flex-direction: row;
-  background-color: #333; }
-  nav a {
-    color: #9c9c68;
-    padding: 14px 20px;
-    text-decoration: none; }
 
 .seccion {
   flex: 30px;
   background-color: #abfdea;
   padding: 20px; }
 
-footer {
-  padding: 20px;
-  text-align: center;
-  background-color: #9c9c68; }
+/* @media screen and (max-width: 350px) {
+  
+   
+  }*/
+/*img {
+    max-width: 95%;
+    width: 320px;
+    height: 260px;
+  
+  }*/
+/*h*/
+.h1text {
+  font-size: 30px;
+  font-family: "barlow", sans-serif;
+  color: #fad400; }
 
-img {
-  max-width: 95%;
-  width: 320px;
-  height: 260px; }
+.h2text {
+  font-size: 30px;
+  color: #23303e;
+  text-decoration: solid;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
 
-.bratitulo {
-  font-size: 40px;
-  color: #384f13; }
+.h3text {
+  color: #458c7e;
+  text-decoration: solid;
+  font-size: 30px; }
 
-.quienparr {
-  display: flex;
-  flex-direction: row;
-  background-color: rgba(240, 198, 85, 0.5); }
-  .quienparr a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none; }
+.h4text {
+  color: #23303e;
+  text-decoration: solid;
+  font-size: 30px; }
 
-.quienparr h3 {
-  color: rgba(78, 64, 64, 0.603);
-  text-decoration: solid; }
-
-.servinav {
-  display: flex;
-  flex-direction: row;
-  background-color: rgba(64, 209, 214, 0.505); }
-  .servinav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none; }
-
-.vuelosnav {
-  display: flex;
-  flex-direction: row;
-  background-color: #084f68; }
-  .vuelosnav a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none; }
-
-.servicios2 {
-  background-color: aquamarine;
-  text-align: center;
-  color: rgba(249, 243, 114, 0.576);
-  text-shadow: 2px 1px #341515;
-  font-style: italic; }
-
-.lugart {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-style: inherit;
-  text-align: left;
-  color: #c2d214; }
-
-.tituloh1 {
-  font-family: initial;
-  color: rgba(78, 64, 64, 0.603); }
-
+/*formulario*/
 .contact_form {
-  width: center;
-  height: center;
-  margin: auto;
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
   border-radius: 10px;
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: #fbfbfb;
+  background-color: #5a636c;
   padding-left: 30px; }
 
 input {
-  background-color: #fbfbfb;
+  background-color: #ede3e3;
   width: 408px;
   height: 40px;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color: #2e3114;
+  border-color: #fe7867;
   margin-top: 10px;
   padding-left: 10px;
   margin-bottom: 20px; }
@@ -405,8 +231,8 @@ button {
   margin-bottom: 20px;
   margin-top: 10px;
   text-transform: uppercase;
-  background-color: #2d412f81;
-  border-color: #ee1f1fc9;
+  background-color: #23303e;
+  border-color: #ab4493;
   border-style: solid;
   border-radius: 10px;
   width: 420px;
@@ -416,18 +242,11 @@ button p {
   color: #fff; }
 
 .obligatorio {
-  color: #052a23; }
+  color: #a7abae; }
 
 .aviso {
   font-size: 13px;
   color: #0e0e0e; }
-
-.formularioh1 {
-  font-size: 20px;
-  text-align: center;
-  padding-bottom: 10px;
-  color: #1a0c0c;
-  width: 400px; }
 
 h3 {
   font-size: 16px;
@@ -440,60 +259,31 @@ h3 {
 
 .formulario input:focus {
   outline: 0;
-  border: 1px solid #97d848; }
+  border: 1px solid #25564b; }
 
 .formulario textarea:focus {
   outline: 0;
-  border: 1px solid #97d848; }
+  border: 1px solid #25564b; }
 
-.conttitu {
-  color: brown;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px; }
-
-.titprincipal {
-  color: #efdd4e; }
-
-.mainss p {
-  color: brown; }
-
-.footer-vuelos {
-  margin-top: 80px;
-  text-align: center;
-  background-color: #595555;
-  color: #c89393; }
-
-.footer-servicios {
-  margin-top: 80px;
-  text-align: center;
-  background-color: rgba(78, 64, 64, 0.603);
-  color: #f6c968; }
-
-.footer-quienessomos {
-  margin-top: 80px;
-  text-align: center;
-  background-color: rgba(78, 64, 64, 0.603);
-  color: #68dcf6; }
-
-.footer-contactos {
-  margin-top: 80px;
-  text-align: center;
-  background-color: #9888f3;
-  color: #535353; }
-
+/*termina formulario*/
 /*variables*/
-.cajaimagen {
-  width: 150px; }
+/*colores principales*/
+/*colores secundarios*/
+/*tipografias*/
+/*tamaños titulos*/
+/*mediaqueries*/
+main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center; }
 
-/*body{
-      @if $festividad == navidad{
-  background-color: brown;
-  } @else if $festividad == pascuas{
-      background-color: rgb(33, 46, 46);
-  } @else {
-      background-color: chocolate;
-      }
-  }*/
+section {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
 .btn--twitter {
   background-color: #55acee; }
 
@@ -503,92 +293,52 @@ h3 {
 .btn--instagram {
   background-color: #c53; }
 
-.pquienes {
-  width: 1245px;
-  height: 250px;
-  background-color: #fffb2491;
-  border-radius: 3%;
-  text-align: center;
-  margin: 5px; }
+/*$estilos: ( 
+      color: #367309,
+      centro: center,
+      tfuente: 35px,
+      1rem : 1rem
+      );
 
-.pquienes {
-  color: #281414; }
 
-h1 {
-  background-color: #7f9ac3;
-  color: #ede3e3;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.4em;
-  padding: 10px;
-  text-transform: uppercase;
-  border-radius: 12px; }
+      @mixin container($ancho, $alto, $color) {
+        width: $ancho;
+        height: $alto;
+        background-color: $colorprincipal;
+        border-radius: 3%;
+        text-align: center;
+        margin: 5px;
+      } 
+      
+      .pquienes{
+        @include container(auto, auto,  $colorsecundario2)
+      }*/
+.parraf {
+  font-family: "fraunces", serif;
+  font-size: 1.4em; }
 
-div.destacado {
-  border: 1px solid #973737;
-  padding: 10px 20px; }
+.pvuelos {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.4em; }
 
-.quienbody {
-  background-color: rgba(248, 189, 99, 0.466); }
+.h2vuelos {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.4em; }
 
-.body-contac {
-  background-color: #11998083; }
+.h3vuelos {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.4em; }
 
-.bodyvuelos {
-  background-color: #331a1a93; }
-
-.qsomos {
-  background: url(../multimedia/banner.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 600px; }
-
-.servicios {
-  background: url(../multimedia/servi.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 600px; }
-
-.hvuelos {
-  background: url(../multimedia/ep_avion_despegando.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 600px; }
-
-.headerindex {
-  background: url(../multimedia/2.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 600px; }
-
-.contache {
-  background: url(../multimedia/callcentercontac.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;
-  height: 600px; }
-
-.contactosh1 {
+/*animacion*/
+.h1text {
   animation-duration: 3s;
   animation-name: slidein; }
 
-.h1quien {
-  animation-duration: 3s;
-  animation-name: slidein; }
-
-.tituloquien {
+.h1text {
   font-size: 30px;
   color: rgba(24, 14, 14, 0.589); }
 
-.titprincipal {
+.h1text {
   animation-duration: 3s;
   animation-name: slidein; }
 
@@ -600,29 +350,9 @@ div.destacado {
     margin-left: 0%;
     width: 100%; } }
 
-.h1servi {
+h1 {
   animation-duration: 3s;
   animation-name: slidein; }
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; }
-  to {
-    margin-left: 0%;
-    width: 100%; } }
-
-.h1vuelos {
-  animation-duration: 3s;
-  animation-name: slidein; }
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; }
-  to {
-    margin-left: 0%;
-    width: 100%; } }
 
 @keyframes slidein {
   from {
@@ -635,26 +365,15 @@ div.destacado {
 /* footer */
 .footer-style {
   padding-top: 50px;
-  background-color: #2C3E50; }
+  background-color: #90d4c5; }
 
 footer {
-  color: white; }
+  color: #818498; }
 
-footer h3 {
-  margin-bottom: 30px;
-  font-weight: 800; }
+.footern {
+  color: #c53; }
 
-footer .footer-above {
-  padding-top: 50px;
-  background-color: #2C3E50; }
-
-footer .footer-col {
-  margin-bottom: 50px; }
-
-footer .footer-below {
-  padding: 25px 0;
-  background-color: #233140; }
-
+/*carrusel*/
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -674,7 +393,19 @@ footer .footer-below {
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px); }
 
-.pquienes {
-  font-style: "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-size: 1 300px; }
+.imagens {
+  background: url(../multimedia/2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 500px; }
+
+html {
+  height: 100%; }
+
+body {
+  background-image: linear-gradient(#ffffff, #ff7a59); }
+
+.parrfq {
+  font: oblique bold 100% cursive; }

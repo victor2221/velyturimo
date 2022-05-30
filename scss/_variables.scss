@@ -1,59 +1,90 @@
-$colorprincipal: rgb(156, 156, 104);
- 
-$colorsecundario: rgba(78, 64, 64, 0.603);
-$color-blanco:#ede3e3;
+/*variables*/
+  /*colores principales*/
 
-$color-texto: #687765;
-
-$titulosgrade: 20px;
-
-$titulopequeño: 10px;
-
-$espaciado-estandar: 10px;
-
-$espaciado-doble: 20px;
-
-$fuente-normal: 1em;
-$fuente-pequena: 0.8em;
-$fuente-grande: 1.4em;
-
-$tipografia-general: arial, verdana, sans-serif;
-$tipografia-alternativa: 'Times New Roman', Times, serif;
-
-$anchototal: 300px;
-.cajaimagen{
-width: $anchototal/2;
-
-}
-
-$festividad: pascuas;
-
-/*body{
-    @if $festividad == navidad{
-background-color: brown;
-} @else if $festividad == pascuas{
-    background-color: aqua;
-} @else {
-    background-color: chocolate;
-    }
-}*/
-
-$redes: (
-    twitter: #55acee,
-    facebook: #3a5795,
-    instagram: #c53
-);
-
-
-@each $red, $color in $redes {
-    .btn--#{$red}{
-        background-color: $color;
-    }
+  $colorprincipal: hsl(7, 99%, 70%);
+  $colorprincipal2: hsl(51, 100%, 49%);
+  $colorprincipal3: hsl(167, 40%, 24%);
+  $colorprincipal4: hsl(198, 62%, 26%);
+  $colorprincipal5: hsl(168, 34%, 41%);
+  $colorfooter:     hsl(210, 9%, 22%);
+  $color-texto: #666;
+  $color-blanco:#ede3e3;
+  
+  
+  /*colores secundarios*/
     
-}
-$estilos: ( 
-color: #367309,
-centro: center,
-tfuente: 35px,
-1rem : 1rem
-);
+  $colorsecundario: hsl(212, 27%, 19%);
+  $colorsecundario2: hsl(213, 9%, 39%);
+  $colorsecundario3: hsl(232, 10%, 55%);
+  $colorsecundario4: hsl(210, 4%, 67%);
+  $colorsecundario5: #ffff;
+  
+  /*tipografias*/
+  
+  $tipografia-general: 'barlow', sans-serif;
+  $tipografia-alternativa: 'fraunces', serif;
+  $tipografia-alternativa2:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /*tamaños titulos*/
+  
+  $titulosgrade: 30px;
+  $titulopequeño: 10px;
+    
+  
+  $espaciado-estandar: 10px;
+  $espaciado-doble: 20px;
+    
+  $fuente-normal: 1em;
+  $fuente-pequena: 0.8em;
+  $fuente-grande: 1.4em;
+  
+  
+  /*mediaqueries*/
+  
+  $mediacelular-320: 320px;
+  $mediaTablet-640: 640px;
+  $mediaDesktop-1240:1240px;
+    
+  
+  $anchototal:300px;
+    .cajaimagen{
+    width: $anchototal/2;
+  }
+    
+    $festividad: pascuas;
+    
+    
+    
+    $redes: (
+        twitter: #55acee,
+        facebook: #3a5795,
+        instagram: #c53
+    );
+    
+    
+   @each $red, $color in $redes {
+        .btn--#{$red} {
+            background-color: $color;
+        }
+      }
+  
+  
+      /*$estilos: ( 
+        color: #367309,
+        centro: center,
+        tfuente: 35px,
+        1rem : 1rem
+        );
+  
+  
+        @mixin container($ancho, $alto, $color) {
+          width: $ancho;
+          height: $alto;
+          background-color: $colorprincipal;
+          border-radius: 3%;
+          text-align: center;
+          margin: 5px;
+        } 
+        
+        .pquienes{
+          @include container(auto, auto,  $colorsecundario2)
+        }*/

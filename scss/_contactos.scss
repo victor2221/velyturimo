@@ -1,68 +1,88 @@
-
+/*formulario*/
+  
 .contact_form {
-    width: 460px;
-    height: auto;
-    margin: 80px auto;
-    border-radius: 10px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    background-color: #fbfbfb;
-    padding-left: 30px;
-  }
-  
-  
-  input {
-    background-color: #fbfbfb;
-    width: 408px;
-    height: 40px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #2e3114;
-    margin-top: 10px;
-    padding-left: 10px;
-    margin-bottom: 20px;
-  }
+  width: 460px;
+  height: auto ;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: $colorsecundario2;
+  padding-left: 30px;
+}
 
-  label {
-    display: block;
-    float: center;
-  }
-  
-  
-  button {
-    height: 45px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    text-transform: uppercase;
-    background-color: #ab4493;
-    border-color: #ab4493;
-    border-style: solid;
-    border-radius: 10px;
-    width: 420px;
-    cursor: pointer;
-  }
-  
-  
-  button p {
-    color: #fff;
-  }
 
-  .formulario input:focus {
-    outline: 0;
-    border: 1px solid #97d848;
-  }
+input {
+  background-color: $color-blanco;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $colorprincipal;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px; 
   
   
-  .formulario textarea:focus {
-    outline: 0;
-    border: 1px solid #97d848;
-  }
-  
-  .contactos{
-    background-image: linear-gradient(left, rgb(238, 238, 96), rgb(241, 92, 92));
-  }
-  
-  
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: $colorsecundario;
+  border-color: #ab4493;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+
+
+button p {
+  color: #fff;
+}
+
+
+.obligatorio {
+  color: $colorsecundario4;
+}
+
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+
+.aviso {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid $colorprincipal3;
+}
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid $colorprincipal3;
+}
+
+/*termina formulario*/
