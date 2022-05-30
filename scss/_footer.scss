@@ -1,46 +1,8 @@
-footer-index{
-    margin-top: 80px;
-    text-align: center;
-    background-color: #f14d79;
-    color: rgb(112, 112, 112);
-}
-
-.footerquien{
-    background-image: linear-gradient(left, rgb(0, 255, 251) , rgb(249, 96, 96));
-  }
-  
-  .footer-vuelos {
+footer {
     
-    margin-top: 80px;
-    text-align: center;
-    background-color: #535353;
-    color: rgb(234, 123, 123);
-  }
+  margin-top: 80px;
+  text-align: center;
+  background-color: $colorfooter;
+  color: $color-texto;
 
-  .footer-servicios{  
-
-    margin-top: 80px;
-    text-align: center;
-    background-color: #c97979;
-    color: rgb(246, 201, 104);
-  
-  }
-
-  .footer-quienessomos{
-
-    margin-top: 80px;
-    text-align: center;
-    background-color: $colorprincipal;
-    color: rgb(104, 220, 246);
-  
-  }
-
-  .footer-contactos{
-
-    margin-top: 80px;
-    text-align: center;
-    background-color: #9888f3;
-    color: rgb(241, 104, 246);
-  
-  
-  }
+}
